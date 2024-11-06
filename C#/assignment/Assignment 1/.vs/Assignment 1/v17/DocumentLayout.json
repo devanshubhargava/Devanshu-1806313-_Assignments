@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\devanshub\\dotnet_training_ICS\\Assignment 1\\",
+  "WorkspaceRootPath": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\Assignment 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB25A8E3-2271-4770-AC8F-4960E982BF1C}|Assignment 1\\Assignment 1.csproj|c:\\users\\devanshub\\dotnet_training_ics\\assignment 1\\assignment 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB25A8E3-2271-4770-AC8F-4960E982BF1C}|Assignment 1\\Assignment 1.csproj|c:\\users\\devanshub\\dotnet_training_ics\\c#\\assignment\\assignment 1\\assignment 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB25A8E3-2271-4770-AC8F-4960E982BF1C}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\devanshub\\dotnet_training_ICS\\Assignment 1\\Assignment 1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\Assignment 1\\Assignment 1\\Program.cs",
               "RelativeDocumentMoniker": "Assignment 1\\Program.cs",
-              "ToolTip": "C:\\Users\\devanshub\\dotnet_training_ICS\\Assignment 1\\Assignment 1\\Program.cs",
+              "ToolTip": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\Assignment 1\\Assignment 1\\Program.cs",
               "RelativeToolTip": "Assignment 1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAswAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T10:54:19.547Z",
               "EditorCaption": ""
