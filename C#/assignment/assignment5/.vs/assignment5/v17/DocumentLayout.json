@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\assignment5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8989463-B2C2-4D5D-9C34-01A7F23238B3}|assignment5\\assignment5.csproj|C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\assignment5\\assignment5\\strings_files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8989463-B2C2-4D5D-9C34-01A7F23238B3}|assignment5\\assignment5.csproj|solutionrelative:assignment5\\strings_files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8989463-B2C2-4D5D-9C34-01A7F23238B3}|assignment5\\assignment5.csproj|C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\assignment5\\assignment5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8989463-B2C2-4D5D-9C34-01A7F23238B3}|assignment5\\assignment5.csproj|solutionrelative:assignment5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8989463-B2C2-4D5D-9C34-01A7F23238B3}|assignment5\\assignment5.csproj|c:\\users\\devanshub\\dotnet_training_ics\\c#\\assignment\\assignment5\\assignment5\\file_reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8989463-B2C2-4D5D-9C34-01A7F23238B3}|assignment5\\assignment5.csproj|solutionrelative:assignment5\\file_reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "File_Reader.cs",
+              "DocumentMoniker": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\assignment5\\assignment5\\File_Reader.cs",
+              "RelativeDocumentMoniker": "assignment5\\File_Reader.cs",
+              "ToolTip": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\assignment5\\assignment5\\File_Reader.cs",
+              "RelativeToolTip": "assignment5\\File_Reader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:31:40.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "strings_files.cs",
+              "DocumentMoniker": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\assignment5\\assignment5\\strings_files.cs",
+              "RelativeDocumentMoniker": "assignment5\\strings_files.cs",
+              "ToolTip": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\assignment5\\assignment5\\strings_files.cs",
+              "RelativeToolTip": "assignment5\\strings_files.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:23:45.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\assignment5\\assignment5\\Program.cs",
+              "RelativeDocumentMoniker": "assignment5\\Program.cs",
+              "ToolTip": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\assignment5\\assignment5\\Program.cs",
+              "RelativeToolTip": "assignment5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T05:50:04.397Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
