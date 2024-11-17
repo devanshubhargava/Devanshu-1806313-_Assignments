@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\Assignment6\\CalculateConcession()\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8FB8B37-0268-4A41-B5AB-B20F5367EE19}|CalculateConcession()\\CalculateConcession().csproj|c:\\users\\devanshub\\dotnet_training_ics\\c#\\assignment\\assignment6\\calculateconcession()\\calculateconcession()\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8FB8B37-0268-4A41-B5AB-B20F5367EE19}|CalculateConcession()\\CalculateConcession().csproj|solutionrelative:calculateconcession()\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8FB8B37-0268-4A41-B5AB-B20F5367EE19}|CalculateConcession()\\CalculateConcession().csproj|c:\\users\\devanshub\\dotnet_training_ics\\c#\\assignment\\assignment6\\calculateconcession()\\calculateconcession()\\program1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8FB8B37-0268-4A41-B5AB-B20F5367EE19}|CalculateConcession()\\CalculateConcession().csproj|solutionrelative:calculateconcession()\\program1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program1.cs",
+              "DocumentMoniker": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\Assignment6\\CalculateConcession()\\CalculateConcession()\\Program1.cs",
+              "RelativeDocumentMoniker": "CalculateConcession()\\Program1.cs",
+              "ToolTip": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\Assignment6\\CalculateConcession()\\CalculateConcession()\\Program1.cs",
+              "RelativeToolTip": "CalculateConcession()\\Program1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T13:34:46.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\Assignment6\\CalculateConcession()\\CalculateConcession()\\Class1.cs",
+              "RelativeDocumentMoniker": "CalculateConcession()\\Class1.cs",
+              "ToolTip": "C:\\Users\\devanshub\\dotnet_training_ICS\\C#\\assignment\\Assignment6\\CalculateConcession()\\CalculateConcession()\\Class1.cs",
+              "RelativeToolTip": "CalculateConcession()\\Class1.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T13:28:34.598Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

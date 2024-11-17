@@ -1,0 +1,15 @@
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\bin\Debug\net8.0\CalculateConcession().exe
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\bin\Debug\net8.0\CalculateConcession().deps.json
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\bin\Debug\net8.0\CalculateConcession().runtimeconfig.json
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\bin\Debug\net8.0\CalculateConcession().dll
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\bin\Debug\net8.0\CalculateConcession().pdb
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\obj\Debug\net8.0\CalculateConcession().GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\obj\Debug\net8.0\CalculateConcession().AssemblyInfoInputs.cache
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\obj\Debug\net8.0\CalculateConcession().AssemblyInfo.cs
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\obj\Debug\net8.0\CalculateConcession().csproj.CoreCompileInputs.cache
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\obj\Debug\net8.0\CalculateConcession().sourcelink.json
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\obj\Debug\net8.0\CalculateConcession().dll
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\obj\Debug\net8.0\refint\CalculateConcession().dll
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\obj\Debug\net8.0\CalculateConcession().pdb
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\obj\Debug\net8.0\CalculateConcession().genruntimeconfig.cache
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\Assignment6\CalculateConcession()\CalculateConcession()\obj\Debug\net8.0\ref\CalculateConcession().dll
