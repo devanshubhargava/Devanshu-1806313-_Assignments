@@ -1,0 +1,106 @@
+------Answer 1------
+
+select * from EMPLOYEES
+where ENAME like 'A%';
+
+------Answer 2------
+
+select ENAME from EMPLOYEES
+WHERE MGR-Id is NULL;
+
+------Answer 3------
+
+Select EMPNO , ENAME , SAL from EMPLOYEES
+where sal >= 1200 AND sal <= 1400;
+
+------Answer 4------
+
+SELECT 
+    ep.*,                            
+    SAL + (SAL * 0.1) AS SAL_after_rise  
+FROM EMPLOYEES AS ep
+LEFT JOIN DEPT AS dp ON ep.DEPTNO = dp.DEPTNO
+WHERE dp.DNAME = 'RESEARCH';
+
+------Answer 5------
+
+SELECT JOB, COUNT(*) AS No_of_clerks
+FROM EMPLOYEES
+WHERE JOB = 'CLERK'
+GROUP BY JOB;
+
+------ANSWER 6------
+
+SELECT JOB ,round(AVG(SAL),2) AS SALARY, COUNT(JOB) AS emp_employed
+FROM EMPLOYEES
+GROUP BY JOB;
+
+-----Answer 7------
+
+select ENAME , SAL
+FROM EMPLOYEES
+where SAL = (SELECT max(SAL) from EMPLOYEES) OR
+SAL = (select min(SAL) FROM EMPLOYEES)
+
+------Answer 8------
+
+SELECT d.*
+FROM DEPT d
+LEFT JOIN EMPLOYEES e ON d.DEPTNO = e.DEPTNO
+WHERE e.EMPNO IS NULL;
+
+------answer 9------
+
+select ENAME , SAL 
+from EMPLOYEES
+WHERE JOB = 'ANALYST' AND SAL > 1200 AND DEPTNO = 20
+ORDER BY ENAME asc;
+
+------Answer 10------
+
+select d.DEPTNO , d.DNAME , sum(ep.SAL) as total_salary
+FROM EMPLOYEES ep left join DEPT d on ep.DEPTNO = d.DEPTNO
+group by DEPTNO , DNAME
+
+------Answer 11------
+
+select ENAME , SAL
+from EMPLOYEES
+where ENAME = 'MILLER' OR ENAME = 'SMITH';
+
+------ANSWER 12------
+
+SELECT ENAME 
+FROM EMPLOYEES
+WHERE ENAME LIKE 'A%' OR ENAME LIKE 'M%'
+
+------ANSWER 13------
+
+SELECT ENAME , round(SAL*12 ,2) as yearly_salary
+FROM EMPLOYEES
+WHERE ENAME = 'SMITH'
+
+------ANSWER 14------
+
+SELECT ENAME , SAL
+FROM EMPLOYEES
+WHERE SAL NOT BETWEEN 1500 AND 2850
+
+-------ANSWER 15------
+
+SELECT MGR_ID, COUNT(MGR_ID) AS employees_assigned
+FROM EMPLOYEES
+GROUP BY MGR_ID
+HAVING COUNT(MGR_ID) > 2;
+
+
+
+
+
+
+
+
+
+
+
+
