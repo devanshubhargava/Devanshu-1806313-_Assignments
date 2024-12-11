@@ -1,0 +1,7 @@
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\assignment7\assignment7\bin\Debug\assignment7.exe.config
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\assignment7\assignment7\bin\Debug\assignment7.exe
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\assignment7\assignment7\bin\Debug\assignment7.pdb
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\assignment7\assignment7\obj\Debug\assignment7.csproj.AssemblyReference.cache
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\assignment7\assignment7\obj\Debug\assignment7.csproj.CoreCompileInputs.cache
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\assignment7\assignment7\obj\Debug\assignment7.exe
+C:\Users\devanshub\dotnet_training_ICS\C#\assignment\assignment7\assignment7\obj\Debug\assignment7.pdb
