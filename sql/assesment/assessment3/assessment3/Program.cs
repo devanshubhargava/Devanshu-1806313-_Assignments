@@ -6,55 +6,46 @@ class Program
 {
     static void Main()
     {
-        
+        // Connection string to your database
         string connectionString = "Server=ICS-LT-1F6XV44\\SQLEXPRESS;Database=sql_training;Trusted_Connection=True;";
 
-        
-        string productName = "New Product";  
-        float price = 100.0f;               
-
-        
+        // Create a SQL connection
         using (SqlConnection conn = new SqlConnection(connectionString))
         {
-            try
-            {
-               
-                conn.Open();
+            conn.Open();
 
-               
-                using (SqlCommand cmd = new SqlCommand("Product_id_gen", conn))
+            // Create a SQL command to execute the stored procedure
+            using (SqlCommand cmd = new SqlCommand("InsertProductDetails", conn))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                // Define input parameters
+                cmd.Parameters.AddWithValue("@ProductName", "Sample Product");
+                cmd.Parameters.AddWithValue("@Price", 100.00);  // Example price
+
+                // Define output parameters
+                SqlParameter outProductId = new SqlParameter("@GeneratedProductId", SqlDbType.Int)
                 {
-                    
-                    cmd.CommandType = CommandType.StoredProcedure;
+                    Direction = ParameterDirection.Output
+                };
+                cmd.Parameters.Add(outProductId);
 
-                    
-                    cmd.Parameters.AddWithValue("@Product_name", productName);
-                    cmd.Parameters.AddWithValue("@Price", price);
+                SqlParameter outDiscountedPrice = new SqlParameter("@CalculatedDiscountedPrice", SqlDbType.Decimal)
+                {
+                    Direction = ParameterDirection.Output
+                };
+                cmd.Parameters.Add(outDiscountedPrice);
 
-                    
-                    using (SqlDataReader reader = cmd.ExecuteReader())
-                    {
-                        
-                        if (reader.Read())
-                        {
-                            
-                            int generatedProductId = (int)reader["GeneratedId"];
+                // Execute the stored procedure
+                cmd.ExecuteNonQuery();
 
-                            
-                            decimal discountedPrice = reader["DiscountedPrice"] != DBNull.Value
-                                ? Convert.ToDecimal(reader["DiscountedPrice"])
-                                : 0;
+                // Retrieve the output values
+                int generatedProductId = (int)outProductId.Value;
+                decimal discountedPrice = (decimal)outDiscountedPrice.Value;
 
-                            
-                            Console.WriteLine("Generated ProductId: " + generatedProductId);
-                            Console.WriteLine("Discounted Price: " + discountedPrice);
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error: " + ex.Message);
+                // Display the results
+                Console.WriteLine("Generated ProductId: " + generatedProductId);
+                Console.WriteLine("Discounted Price: " + discountedPrice);
             }
         }
     }
