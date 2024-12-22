@@ -1,0 +1,7 @@
+C:\Users\devanshub\dotnet_training_ICS\train_reservation_system\train_reservation_system\bin\Debug\train_reservation_system.exe.config
+C:\Users\devanshub\dotnet_training_ICS\train_reservation_system\train_reservation_system\bin\Debug\train_reservation_system.exe
+C:\Users\devanshub\dotnet_training_ICS\train_reservation_system\train_reservation_system\bin\Debug\train_reservation_system.pdb
+C:\Users\devanshub\dotnet_training_ICS\train_reservation_system\train_reservation_system\obj\Debug\train_reservation_system.csproj.AssemblyReference.cache
+C:\Users\devanshub\dotnet_training_ICS\train_reservation_system\train_reservation_system\obj\Debug\train_reservation_system.csproj.CoreCompileInputs.cache
+C:\Users\devanshub\dotnet_training_ICS\train_reservation_system\train_reservation_system\obj\Debug\train_reservation_system.exe
+C:\Users\devanshub\dotnet_training_ICS\train_reservation_system\train_reservation_system\obj\Debug\train_reservation_system.pdb
