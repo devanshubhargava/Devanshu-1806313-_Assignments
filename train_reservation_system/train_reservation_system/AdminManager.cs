@@ -76,16 +76,14 @@ namespace train_reservation_system
                         string source = Console.ReadLine().ToUpper();
                         Console.Write("Enter Destination Station: ");
                         string destination = Console.ReadLine().ToUpper();
-                        Console.Write("Enter Total Seats: ");
-                        int totalSeats = Convert.ToInt32(Console.ReadLine());
                         Console.Write("Enter Available First Class Seats: ");
                         int availableFirstClassSeats = Convert.ToInt32(Console.ReadLine());
                         Console.Write("Enter Available Second Class Seats: ");
                         int availableSecondClassSeats = Convert.ToInt32(Console.ReadLine());
                         Console.Write("Enter Available Sleeper Class Seats: ");
                         int availableSleeperClassSeats = Convert.ToInt32(Console.ReadLine());
+                        int totalSeats = availableFirstClassSeats + availableSecondClassSeats + availableSleeperClassSeats;
 
-                        
                         Train.AddTrain(trainNo, trainName, source, destination, totalSeats, availableFirstClassSeats, availableSecondClassSeats, availableSleeperClassSeats);
                         break;
 
