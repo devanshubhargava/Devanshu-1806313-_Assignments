@@ -1,0 +1,18 @@
+﻿@using Assignment_1.Models
+@model Contact
+
+<h2>Create New Contact</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(c => c.FirstName)
+    @Html.TextBoxFor(c => c.FirstName)
+
+    @Html.LabelFor(c => c.LastName)
+    @Html.TextBoxFor(c => c.LastName)
+
+    @Html.LabelFor(c => c.Email)
+    @Html.TextBoxFor(c => c.Email)
+
+    <input type="submit" value="Create" />
+}
