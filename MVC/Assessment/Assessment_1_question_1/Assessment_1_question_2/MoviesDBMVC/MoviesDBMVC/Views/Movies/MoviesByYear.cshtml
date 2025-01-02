@@ -1,0 +1,26 @@
+﻿@using MoviesDBMVC.Models
+@model IEnumerable<Movie>
+
+<h2>Movies Released in @ViewBag.Year</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Movie Name</th>
+            <th>Release Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td>@movie.MovieName</td>
+                <td>@movie.DateOfRelease.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
